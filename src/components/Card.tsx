@@ -5,7 +5,7 @@ interface UserProps {
     personImage: string
 }
 
-const Card: React.FC<UserProps> = ({personName, personImage}) => {
+const Card: React.FC<UserProps> = ({personName = "Stranger", personImage = "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}) => {
   return (
     <div className="relative h-[400px] w-[300px] rounded-md mx-4 mt-8">
         <img
