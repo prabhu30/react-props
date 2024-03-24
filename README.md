@@ -5,3 +5,4 @@
   - JSX
   - Functional Components
   - `props` and `object destructuring`
+  - Tailwind Styles
